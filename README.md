@@ -39,3 +39,22 @@ sudo apt update
 sudo apt install ros-noetic-desktop-full -y
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
+
+## 🐍  First Publisher Node
+
+This `talker.py` node publishes velocity commands (`geometry_msgs/Twist`) to `/turtle1/cmd_vel`. It makes the turtle move in a curve.
+
+### 🧠 Code Snippet (talker.py)
+
+```python
+pub = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=10)
+msg.linear.x = 2.0
+msg.angular.z = 1.0
+pub.publish(msg)
+
+
+## 👩‍💻 About the Author
+
+**Pranitha Gokamala**  
+Robotics & Cloud enthusiast — passionate about building intelligent systems, simulating behavior in the cloud, and making robots move!  
+Let’s build something meaningful — one node at a time. 🧠⚙️
