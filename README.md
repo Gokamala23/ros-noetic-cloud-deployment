@@ -77,14 +77,14 @@ def callback(data):
 
 ---
 
-## 👩‍💻 About the Author
-
-**Pranitha Gokamala**  
-Robotics & Cloud enthusiast — passionate about building intelligent systems, simulating behavior in the cloud, and making robots move!  
-Let’s build something meaningful — one node at a time. 🧠⚙️
-
 ##  5. 📸 TurtleSim GUI Demo
 
 Here's a screenshot of the turtle moving in the simulation (remotely run via ROS Noetic on AWS EC2):
 
 ![TurtleSim Screenshot](turtlesim_demo.jpeg)
+
+## 👩‍💻 About the Author
+
+***Pranitha Gokamala***
+Robotics & Cloud enthusiast — passionate about building intelligent systems, simulating behavior in the cloud, and making robots move!  
+Let’s build something meaningful — one node at a time. ⚙️
