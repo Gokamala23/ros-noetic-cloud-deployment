@@ -75,17 +75,15 @@ def callback(data):
 
 ---
 
-<<<<<<< HEAD
----
 
-##  5. 📸 TurtleSim GUI Demo
+##  📸 TurtleSim GUI Demo
 
 Here's a screenshot of the turtle moving in the simulation (remotely run via ROS Noetic on AWS EC2):
 
 ![TurtleSim Screenshot](turtlesim_demo.jpeg)
 
+---
 
-=======
 ## 👩‍💻 About the Author
 
 **Pranitha Gokamala**  
