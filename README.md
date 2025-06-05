@@ -72,3 +72,11 @@ rospy.Subscriber('/turtle1/pose', Pose, callback)
 
 def callback(data):
     rospy.loginfo(f"Turtle Pose → x: {data.x:.2f}, y: {data.y:.2f}, theta: {data.theta:.2f}")
+
+---
+
+##  5. 📸 TurtleSim GUI Demo
+
+Here's a screenshot of the turtle moving in the simulation (remotely run via ROS Noetic on AWS EC2):
+
+![TurtleSim Screenshot](turtlesim_demo.jpeg)
