@@ -40,7 +40,7 @@ sudo apt install ros-noetic-desktop-full -y
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
-### 🐍  First Publisher Node
+### 3. 🐍  First Publisher Node
 
 This `talker.py` node publishes velocity commands (`geometry_msgs/Twist`) to `/turtle1/cmd_vel`. It makes the turtle move in a curve.
 
@@ -52,7 +52,7 @@ msg.linear.x = 2.0
 msg.angular.z = 1.0
 pub.publish(msg)
 
-###🐢 Add a Subscriber Node
+### 4. 🐢 Add a Subscriber Node
 
 This `listener.py` node subscribes to `/turtle1/pose` and logs the turtle’s current position and heading.
 
