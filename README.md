@@ -84,15 +84,11 @@ Here's a screenshot of the turtle moving in the simulation (remotely run via ROS
 
 ![TurtleSim Screenshot](turtlesim_demo.jpeg)
 
-## 👩‍💻 About the Author
 
-***Pranitha Gokamala***
-Robotics & Cloud enthusiast — passionate about building intelligent systems, simulating behavior in the cloud, and making robots move!  
-Let’s build something meaningful — one node at a time. ⚙️
 =======
 ## 👩‍💻 About the Author
 
 **Pranitha Gokamala**  
 Robotics & Cloud enthusiast — passionate about building intelligent systems, simulating behavior in the cloud, and making robots move!  
 Let’s build something meaningful — one node at a time. 🧠⚙️
->>>>>>> Add author bio section
+
